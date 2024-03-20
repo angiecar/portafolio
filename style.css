@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:400,500|Lora:400,400i,700,700i|Roboto:300,400,500,600,700");
+@import url("font-awesome/css/fontawesome-all.css");
+
+/* Visual styling styles */
+h1 {
+    color: #6A0DAD; 
+}
+
+p , .grid-item ul li{
+    color: #ffffff; 
+}
+
+body {
+    background: #050505;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.882;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1{
+    font-family: "Frank Ruhl Libre", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #ffffff;
+    font-variant-ligatures: common-ligatures;
+    text-rendering: optimizeLegibility;
+  }
+
+  h2{
+    font-size: x-large;
+    font-family: "Frank Ruhl Libre", serif;
+    color: #777474;
+    
+  }
+
+.works h1{
+	
+	font-family:"Roboto", sans-serif;
+	font-size:1em;
+	color: #e13bf9;
+	text-align:center;
+	padding-bottom:50px;
+}
+
+.contact p, .works p{
+	font-family: "Frank Ruhl Libre", serif;
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1.259;
+    letter-spacing: -0.05rem;
+}
+  h3{
+    color: #e13bf9;
+  }
+  .emails{
+	  
+	  color: #e13bf9;
+  }
+  .contact h1 a{
+	  font-family: "Roboto", sans-serif;
+	  font-size: 1.8em;
+	  
+  }
+  
+  h4{
+	  color: #e13bf9;
+  }
+  
+  a {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  a:hover,
+  a:focus,
+  a:active {
+    color:#6A0DAD;
+  }
+  
+  a:hover,
+  a:active {
+    outline: 0;
+  }
+
+
+
+/* Add a purple background to the container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:#05050500 ; 
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #050505;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+p#main{
+	
+	font-size:1em;
+}
+.about p,.grid-item ul li {
+	font-size:0.7em;
+	
+}
+/* Services section styles */
+.services {
+    
+    padding: 40px 0;
+}
+
+.service {
+    margin-bottom: 20px;
+}
+
+.service h2 {
+    color: #6A0DAD; 
+    font-size: 24px; 
+}
+
+.service p, footer {
+    color: #fff;
+    font-size: 0.6em;
+}
+
+.s-contact h2 {
+    color: #6A0DAD; 
+    font-size: 24px; 
+}
+
+.s-contact p {
+        color: #fff;
+    font-size: 1.2em;
+}
+
+.s-contact a {
+    color: #6A0DAD; 
+}
+
+p.caption {
+    text-align: center;
+    font-size: 0.8em; 
+    margin: 10px 0;
+}
+
+.masonry-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; 
+    max-width: 800px;
+    margin: 0 auto; 
+	padding-top:80px;
+	padding-bottom:100px;
+}
+
+.masonry-item {
+    position: relative;
+}
+
+.masonry-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%; 
+}
+
+.masonry-item a {
+    display: block;
+    text-decoration: none;
+    border: 1px solid #ddd; 
+    padding: 10px; 
+}
+

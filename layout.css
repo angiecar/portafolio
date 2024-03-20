@@ -1,0 +1,128 @@
+/* Reset some default styles */         
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+	width: 95%;
+    min-width: 640px;
+    max-width: 960px;
+    min-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Basic layout styles */
+body {
+   
+    background-color: #f0f0f0;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+
+.container, .contact {
+    max-width: 800px;
+    margin: 0 0 ;
+    padding: 20px;
+}
+
+.intro-grid {
+    background-image: url(../images/pattern-dot-grid.svg);
+    background-size: 24px 24px;
+    opacity: .15;
+    position: absolute;
+    top: 30%;
+    right: 0;
+    bottom: 0;
+    left: 30%;
+	z-index: -2;
+  }
+  
+  .intro-pic {
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-image: url(../images/profile.png);
+    position: absolute;
+    top: 20%;
+    right: 0;
+    bottom: 0;
+    left: 50%;
+	z-index: -1;
+}
+.about-pic{
+	background-repeat: no-repeat;
+    background-position: top right;
+    background-image: url(../images/aboutme.png);
+    position: absolute;
+    top: 20%;
+    right: 0;
+    bottom: 0;
+    left: 50%;
+	z-index: -1;
+	
+}
+.service-pic{
+	background-repeat: no-repeat;
+    background-position: top right;
+    background-image: url(../images/brand.png);
+    position: absolute;
+    top: 20%;
+    right: 0;
+    bottom: 0;
+    left: 20%;
+	margin: 0 10%;
+	z-index: -1;
+	
+}
+
+.contact-pic{
+	background-repeat: no-repeat;
+    background-position: top right;
+    background-image: url(../images/email.png);
+    position: absolute;
+    top: 20%;
+    right: 0;
+    bottom: 0;
+    left: 60%;
+	z-index: -1;
+	
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.grid-item {
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #deb0ed45;
+}
+
